@@ -38,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.tag == "Level")
         {
             playerhealth.TakeDamage(10);
+            Debug.Log("Owww");
         }
     }
 

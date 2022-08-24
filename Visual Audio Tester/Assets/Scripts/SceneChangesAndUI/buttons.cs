@@ -38,7 +38,7 @@ public class buttons : MonoBehaviour
             SceneManager.LoadScene(final);
         }
 
-        else if (this.gameObject.tag == "credit")
+        else if (this.gameObject.tag == "exit")
         {
             Application.Quit();
         }

@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Level
+  - credit
+  - start
+  - exit
+  - menu
   layers:
   - Default
   - TransparentFX

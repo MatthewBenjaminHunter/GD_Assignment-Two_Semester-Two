@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -27,6 +28,11 @@ public class PlayerHealth : MonoBehaviour
         currentHealth -= damage;
 
         healthbar.SetHealth(currentHealth);
+
+        if (currentHealth < 0)
+        {
+            SceneManager.LoadScene("PlayerDied");
+        }
     }
 
     public void IncreaseHealth(int health)

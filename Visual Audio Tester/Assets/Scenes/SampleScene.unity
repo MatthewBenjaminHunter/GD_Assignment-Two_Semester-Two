@@ -303,7 +303,7 @@ Transform:
   - {fileID: 1722808023}
   - {fileID: 1734465422}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &133607480
 MonoBehaviour:
@@ -491,7 +491,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4232695726866231848, guid: 98004a3131b3fe245958203fd082ac7c, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4232695726866231848, guid: 98004a3131b3fe245958203fd082ac7c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -537,6 +537,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PickUpTest (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4232695726866231854, guid: 98004a3131b3fe245958203fd082ac7c, type: 3}
+      propertyPath: playerhealth
+      value: 
+      objectReference: {fileID: 989246995}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98004a3131b3fe245958203fd082ac7c, type: 3}
 --- !u!1 &505170106
@@ -1208,7 +1212,7 @@ RectTransform:
   m_Children:
   - {fileID: 1775943075}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1319,7 +1323,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &989246992
 Rigidbody2D:
@@ -1455,6 +1459,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PickUpTest (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4232695726866231854, guid: 98004a3131b3fe245958203fd082ac7c, type: 3}
+      propertyPath: playerhealth
+      value: 
+      objectReference: {fileID: 989246995}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98004a3131b3fe245958203fd082ac7c, type: 3}
 --- !u!1 &1484411293
@@ -1878,7 +1886,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4232695726866231848, guid: 98004a3131b3fe245958203fd082ac7c, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4232695726866231848, guid: 98004a3131b3fe245958203fd082ac7c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1924,6 +1932,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PickUpTest (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4232695726866231854, guid: 98004a3131b3fe245958203fd082ac7c, type: 3}
+      propertyPath: playerhealth
+      value: 
+      objectReference: {fileID: 989246995}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98004a3131b3fe245958203fd082ac7c, type: 3}
 --- !u!1 &1722808020
@@ -2819,7 +2831,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2095132001}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.45, y: 9.19, z: 0}
+  m_LocalPosition: {x: 17.45, y: 9.19, z: -2}
   m_LocalScale: {x: 2, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
